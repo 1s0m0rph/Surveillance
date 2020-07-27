@@ -1,6 +1,6 @@
 import paho.mqtt.client as mqtt
 
-MQTT_SERVER = "localhost"#TODO figure out how to scan for available external connections here
+MQTT_SERVER = "localhost"
 MQTT_TOPIC = "test_topic"
 
 def on_connect(client, user_data, flags, result_code):
